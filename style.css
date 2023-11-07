@@ -1,0 +1,45 @@
+.flipCard {
+  -webkit-perspective: 800;
+  -ms-perspective: 800;
+  -moz-perspective: 800;
+  -o-perspective: 800;
+   width: 400px;
+   height: 630px;
+   position: relative;
+   margin: 50px auto;
+}
+
+
+
+.flipCard .card .side {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 2;
+  backface-visibility: hidden;  /* W3C */
+  -webkit-backface-visibility: hidden; /* Safari & Chrome */
+  -moz-backface-visibility: hidden; /* Firefox */
+  -ms-backface-visibility: hidden; /* Internet Explorer */
+  -o-backface-visibility: hidden; /* Opera */
+  overflow: auto;
+}
+
+.flipCard .card .front {
+  font-family: Georgia;
+  font-size: 3em;
+  text-align: center;
+  line-height: 170px;
+  background-image: url('https://s5.gifyu.com/images/S8DH1.gif');
+  color: white;
+  https://i.imgur.com/V4DfLeH.jpeg
+}
+
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Solid_white.svg)
+}
+
